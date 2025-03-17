@@ -4,9 +4,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <header className="container mx-auto">
       <nav className="flex items-center justify-between px-4 py-6">
@@ -22,7 +20,7 @@ const Header = (props: Props) => {
 
         <div className="flex items-center">
           <SignedOut>
-            <SignInButton>
+            <SignInButton mode="modal">
               <Button>Sign In</Button>
             </SignInButton>
           </SignedOut>
