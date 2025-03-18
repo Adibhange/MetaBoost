@@ -21,7 +21,7 @@ const Header = () => {
         <div className="flex items-center">
           <SignedOut>
             <SignInButton mode="modal">
-              <Button>Sign In</Button>
+              <Button className="bg-brand hover:bg-brand-dark">Sign In</Button>
             </SignInButton>
           </SignedOut>
 
