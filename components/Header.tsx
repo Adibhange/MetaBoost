@@ -18,7 +18,7 @@ const Header = () => {
           />
         </Link>
 
-        <div className="flex items-center">
+        <div>
           <SignedOut>
             <SignInButton mode="modal">
               <Button className="bg-brand hover:bg-brand-dark">Sign In</Button>
