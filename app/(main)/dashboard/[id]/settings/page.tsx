@@ -1,8 +1,8 @@
 import React from "react";
 import Billing from "../_components/settings/Billing";
 
-const page = () => {
+const SettingsPage = () => {
   return <Billing />;
 };
 
-export default page;
+export default SettingsPage;
