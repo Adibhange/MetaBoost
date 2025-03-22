@@ -29,6 +29,7 @@ const AppSidebar = ({ id }: Props) => {
           width={1000}
           alt="MetaBoost Logo"
           className="h-14 w-56"
+          priority
         />
       </SidebarHeader>
 

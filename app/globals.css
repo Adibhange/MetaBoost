@@ -205,3 +205,13 @@
   background-size: 70% 80%;
   background-repeat: no-repeat;
 }
+
+.radial--gradient--automations {
+  background-image: radial-gradient(
+    at top left,
+    rgba(51, 82, 204, 0.05) 40%,
+    transparent 50%
+  );
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+}
